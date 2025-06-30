@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Edit Page</title>
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" >
+</head>
+
+<body>
+
+    <header>
+        <div class="container bg">
+            <div class="header--row">
+            <a href="#"><img src="logo.png" alt="logo"></a>
+            <div class="hamburger">
+                <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M30.9104 16.957H6.08958C5.28072 16.957 4.625 17.6127 4.625 18.4216V18.5758C4.625 19.3846 5.28072 20.0404 6.08958 20.0404H30.9104C31.7193 20.0404 32.375 19.3846 32.375 18.5758V18.4216C32.375 17.6127 31.7193 16.957 30.9104 16.957Z" fill="#512916"/>
+<path d="M30.9104 24.668H6.08958C5.28072 24.668 4.625 25.3237 4.625 26.1326V26.2867C4.625 27.0956 5.28072 27.7513 6.08958 27.7513H30.9104C31.7193 27.7513 32.375 27.0956 32.375 26.2867V26.1326C32.375 25.3237 31.7193 24.668 30.9104 24.668Z" fill="#512916"/>
+<path d="M30.9104 9.25H6.08958C5.28072 9.25 4.625 9.90572 4.625 10.7146V10.8688C4.625 11.6776 5.28072 12.3333 6.08958 12.3333H30.9104C31.7193 12.3333 32.375 11.6776 32.375 10.8688V10.7146C32.375 9.90572 31.7193 9.25 30.9104 9.25Z" fill="#512916"/>
+</svg>
+
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="opening_div">
+            <div class="container bg">
+                <div class="content-wrapper">
+                    <h1 class="main_heading">Profile</h1>
+                    <p class="title">Please type full information bellow and we can create your account</p>
+
+                    <div class="form_wrapper">
+                        <form>
+
+                            <div class="form-group">
+                                <div class="profile-container">
+                                <img src="assest/images/dummy.png" alt="Profile" class="profile-img" id="profilePreview">
+                                <div class="camera-icon" id="uploadTrigger">
+                                 <i class="fa fa-camera upload-button"></i>
+                                </div>
+                                <input type="file" id="imageUpload" accept="image/*">
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <input type="text" placeholder="Full Name" required>
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="mail" placeholder="Email address" required>
+                               <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="Mobile number(Optional)">
+                                <i class="">+91</i>
+                            </div>
+                            <div class="form-group">
+                                <a href="main.html" class="theme_btn">Edit Profile</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+<footer>
+        <div class="container bg">
+            <div class="footer--row">
+            <p>"भारतस्य प्रतिष्ठे द्वे संस्कृतं संस्कृतिस्तथा"<br>
+"India's two pillars of glory are Sanskrit and its</p>          
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <script src="assest/js/custom.js"></script>
+</body>
+
+</html>
